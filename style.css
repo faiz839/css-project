@@ -21,7 +21,7 @@ button{
     color: white;
 }
 .main1{
-    height: 488px;
+    height: 480px;
     border: 2px solid black;
     border-radius: 10px;
     margin: 10px;
@@ -32,7 +32,7 @@ button{
     align-items: center;
 }
 .main2{
-    height: 488px;
+    height: 480px;
     border: 2px solid black;
     margin: 10px;
     border-radius: 10px;
@@ -52,4 +52,19 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+@media(max-width:500px){
+    .main{
+        flex-direction: column;
+    }
+    .main1{
+        flex-direction: column;
+    }
+    .main2{
+        flex-direction: column;
+
+    }
+    .main4{
+        flex-direction: column;
+    }
 }
